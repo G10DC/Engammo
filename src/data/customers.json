@@ -1,0 +1,182 @@
+[
+    {
+        "nome": "Mario",
+        "cognome": "Rossi",
+        "nazionalita": "Italiana",
+        "hobby": "Pittura",
+        "educazione": "Laurea in Belle Arti",
+        "eta": 32,
+        "email": "mario.rossi@example.com"
+    },
+    {
+        "nome": "Emma",
+        "cognome": "Johnson",
+        "nazionalita": "Inglese",
+        "hobby": "Passeggiate",
+        "educazione": "Laurea in Letteratura Inglese",
+        "eta": 28,
+        "email": "emma.johnson@example.com"
+    },
+    {
+        "nome": "Juan",
+        "cognome": "Garcia",
+        "nazionalita": "Spagnola",
+        "hobby": "Calcio",
+        "educazione": "Laurea in Economia",
+        "eta": 35,
+        "email": "juan.garcia@example.com"
+    },
+    {
+        "nome": "Sara",
+        "cognome": "Lee",
+        "nazionalita": "Coreana",
+        "hobby": "Cucina",
+        "educazione": "Laurea in Cucina Coreana",
+        "eta": 26,
+        "email": "sara.lee@example.com"
+    },
+    {
+        "nome": "Alex",
+        "cognome": "Smith",
+        "nazionalita": "Americana",
+        "hobby": "Paddleboarding",
+        "educazione": "Laurea in Marketing",
+        "eta": 30,
+        "email": "alex.smith@example.com"
+    },
+    {
+        "nome": "Julia",
+        "cognome": "Müller",
+        "nazionalita": "Tedesca",
+        "hobby": "Sci",
+        "educazione": "Laurea in Ingegneria Meccanica",
+        "eta": 29,
+        "email": "julia.muller@example.com"
+    },
+    {
+        "nome": "Mohammed",
+        "cognome": "Ali",
+        "nazionalita": "Egiziana",
+        "hobby": "Calcio",
+        "educazione": "Laurea in Ingegneria Civile",
+        "eta": 33,
+        "email": "mohammed.ali@example.com"
+    },
+    {
+        "nome": "Sophie",
+        "cognome": "Dubois",
+        "nazionalita": "Francese",
+        "hobby": "Passeggiate",
+        "educazione": "Laurea in Storia dell'Arte",
+        "eta": 27,
+        "email": "sophie.dubois@example.com"
+    },
+    {
+        "nome": "Lars",
+        "cognome": "Andersen",
+        "nazionalita": "Danese",
+        "hobby": "Ciclismo",
+        "educazione": "Laurea in Ingegneria Elettrica",
+        "eta": 31,
+        "email": "lars.andersen@example.com"
+    },
+    {
+        "nome": "Maria",
+        "cognome": "González",
+        "nazionalita": "Spagnola",
+        "hobby": "Passeggiate",
+        "educazione": "Laurea in Psicologia",
+        "eta": 25,
+        "email": "maria.gonzalez@example.com"
+    },
+    {
+        "nome": "Johan",
+        "cognome": "Lindström",
+        "nazionalita": "Svedese",
+        "hobby": "Sci",
+        "educazione": "Laurea in Ingegneria Civile",
+        "eta": 34,
+        "email": "johan.lindstrom@example.com"
+    },
+    {
+        "nome": "Marta",
+        "cognome": "Fernández",
+        "nazionalita": "Spagnola",
+        "hobby": "Cucina",
+        "educazione": "Laurea in Gastronomia",
+        "eta": 23,
+        "email": "marta.fernandez@example.com"
+    },
+    {
+        "nome": "Hans",
+        "cognome": "Müller",
+        "nazionalita": "Tedesca",
+        "hobby": "Passeggiate",
+        "educazione": "Laurea in Ingegneria Meccanica",
+        "eta": 36,
+        "email": "hans.muller@example.com"
+    },
+    {
+        "nome": "Anna",
+        "cognome": "Kowalska",
+        "nazionalita": "Polacca",
+        "hobby": "Passeggiate",
+        "educazione": "Laurea in Storia dell'Arte",
+        "eta": 28,
+        "email": "anna.kowalska@example.com"
+    },
+    {
+        "nome": "David",
+        "cognome": "García",
+        "nazionalita": "Spagnola",
+        "hobby": "Paddleboarding",
+        "educazione": "Laurea in Economia",
+        "eta": 29,
+        "email": "david.garcia@example.com"
+    },
+    {
+        "nome": "Sophia",
+        "cognome": "Schmidt",
+        "nazionalita": "Tedesca",
+        "hobby": "Paddleboarding",
+        "educazione": "Laurea in Marketing",
+        "eta": 31,
+        "email": "sophia.schmidt@example.com"
+    },
+    {
+        "nome": "Simone",
+        "cognome": "Ricci",
+        "nazionalita": "Italiana",
+        "hobby": "Cucina",
+        "educazione": "Laurea in Gastronomia",
+        "eta": 27,
+        "email": "simone.ricci@example.com"
+    },
+    {
+        "nome": "John",
+        "cognome": "Doe",
+        "nazionalita": "Americana",
+        "hobby": "Passeggiate",
+        "educazione": "Laurea in Ingegneria Elettrica",
+        "eta": 33,
+        "email": "john.doe@example.com"
+    },
+    {
+        "nome": "Laura",
+        "cognome": "González",
+        "nazionalita": "Spagnola",
+        "hobby": "Pittura",
+        "educazione": "Laurea in Belle Arti",
+        "eta": 26,
+        "email": "laura.gonzalez@example.com"
+    },
+    {
+        "nome": "Andrea",
+        "cognome": "Müller",
+        "nazionalita": "Tedesca",
+        "hobby": "Ciclismo",
+        "educazione": "Laurea in Ingegneria Civile",
+        "eta": 30,
+        "email": "andrea.muller@example.com"
+    }
+]

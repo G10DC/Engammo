@@ -1,182 +1,359 @@
 [
-    {
-        "nome": "Mario",
-        "cognome": "Rossi",
-        "nazionalita": "Italiana",
-        "hobby": "Pittura",
-        "educazione": "Laurea in Belle Arti",
-        "eta": 32,
-        "email": "mario.rossi@example.com"
-    },
-    {
-        "nome": "Emma",
-        "cognome": "Johnson",
-        "nazionalita": "Inglese",
-        "hobby": "Passeggiate",
-        "educazione": "Laurea in Letteratura Inglese",
-        "eta": 28,
-        "email": "emma.johnson@example.com"
-    },
-    {
-        "nome": "Juan",
-        "cognome": "Garcia",
-        "nazionalita": "Spagnola",
-        "hobby": "Calcio",
-        "educazione": "Laurea in Economia",
-        "eta": 35,
-        "email": "juan.garcia@example.com"
-    },
-    {
-        "nome": "Sara",
-        "cognome": "Lee",
-        "nazionalita": "Coreana",
-        "hobby": "Cucina",
-        "educazione": "Laurea in Cucina Coreana",
-        "eta": 26,
-        "email": "sara.lee@example.com"
-    },
-    {
-        "nome": "Alex",
-        "cognome": "Smith",
-        "nazionalita": "Americana",
-        "hobby": "Paddleboarding",
-        "educazione": "Laurea in Marketing",
-        "eta": 30,
-        "email": "alex.smith@example.com"
-    },
-    {
-        "nome": "Julia",
-        "cognome": "Müller",
-        "nazionalita": "Tedesca",
-        "hobby": "Sci",
-        "educazione": "Laurea in Ingegneria Meccanica",
-        "eta": 29,
-        "email": "julia.muller@example.com"
-    },
-    {
-        "nome": "Mohammed",
-        "cognome": "Ali",
-        "nazionalita": "Egiziana",
-        "hobby": "Calcio",
-        "educazione": "Laurea in Ingegneria Civile",
-        "eta": 33,
-        "email": "mohammed.ali@example.com"
-    },
-    {
-        "nome": "Sophie",
-        "cognome": "Dubois",
-        "nazionalita": "Francese",
-        "hobby": "Passeggiate",
-        "educazione": "Laurea in Storia dell'Arte",
-        "eta": 27,
-        "email": "sophie.dubois@example.com"
-    },
-    {
-        "nome": "Lars",
-        "cognome": "Andersen",
-        "nazionalita": "Danese",
-        "hobby": "Ciclismo",
-        "educazione": "Laurea in Ingegneria Elettrica",
-        "eta": 31,
-        "email": "lars.andersen@example.com"
-    },
-    {
-        "nome": "Maria",
-        "cognome": "González",
-        "nazionalita": "Spagnola",
-        "hobby": "Passeggiate",
-        "educazione": "Laurea in Psicologia",
-        "eta": 25,
-        "email": "maria.gonzalez@example.com"
-    },
-    {
-        "nome": "Johan",
-        "cognome": "Lindström",
-        "nazionalita": "Svedese",
-        "hobby": "Sci",
-        "educazione": "Laurea in Ingegneria Civile",
-        "eta": 34,
-        "email": "johan.lindstrom@example.com"
-    },
-    {
-        "nome": "Marta",
-        "cognome": "Fernández",
-        "nazionalita": "Spagnola",
-        "hobby": "Cucina",
-        "educazione": "Laurea in Gastronomia",
-        "eta": 23,
-        "email": "marta.fernandez@example.com"
-    },
-    {
-        "nome": "Hans",
-        "cognome": "Müller",
-        "nazionalita": "Tedesca",
-        "hobby": "Passeggiate",
-        "educazione": "Laurea in Ingegneria Meccanica",
-        "eta": 36,
-        "email": "hans.muller@example.com"
-    },
-    {
-        "nome": "Anna",
-        "cognome": "Kowalska",
-        "nazionalita": "Polacca",
-        "hobby": "Passeggiate",
-        "educazione": "Laurea in Storia dell'Arte",
-        "eta": 28,
-        "email": "anna.kowalska@example.com"
-    },
-    {
-        "nome": "David",
-        "cognome": "García",
-        "nazionalita": "Spagnola",
-        "hobby": "Paddleboarding",
-        "educazione": "Laurea in Economia",
-        "eta": 29,
-        "email": "david.garcia@example.com"
-    },
-    {
-        "nome": "Sophia",
-        "cognome": "Schmidt",
-        "nazionalita": "Tedesca",
-        "hobby": "Paddleboarding",
-        "educazione": "Laurea in Marketing",
-        "eta": 31,
-        "email": "sophia.schmidt@example.com"
-    },
-    {
-        "nome": "Simone",
-        "cognome": "Ricci",
-        "nazionalita": "Italiana",
-        "hobby": "Cucina",
-        "educazione": "Laurea in Gastronomia",
-        "eta": 27,
-        "email": "simone.ricci@example.com"
-    },
-    {
-        "nome": "John",
-        "cognome": "Doe",
-        "nazionalita": "Americana",
-        "hobby": "Passeggiate",
-        "educazione": "Laurea in Ingegneria Elettrica",
-        "eta": 33,
-        "email": "john.doe@example.com"
-    },
-    {
-        "nome": "Laura",
-        "cognome": "González",
-        "nazionalita": "Spagnola",
-        "hobby": "Pittura",
-        "educazione": "Laurea in Belle Arti",
-        "eta": 26,
-        "email": "laura.gonzalez@example.com"
-    },
-    {
-        "nome": "Andrea",
-        "cognome": "Müller",
-        "nazionalita": "Tedesca",
-        "hobby": "Ciclismo",
-        "educazione": "Laurea in Ingegneria Civile",
-        "eta": 30,
-        "email": "andrea.muller@example.com"
+  {
+    "name": "John",
+    "surname": "Smith",
+    "nationality": "American",
+    "hobby": "Golf",
+    "education": "Business Administration",
+    "age": 35,
+    "email": "john.smith@example.com",
+    "occupation": "Marketing Manager",
+    "languages": ["English", "Spanish"],
+    "location": "New York, USA",
+    "social_media": {
+      "instagram": "@johnsmith",
+      "facebook": "johnsmith",
+      "twitter": "@johnsmith"
     }
+  },
+  {
+    "name": "Maria",
+    "surname": "Garcia",
+    "nationality": "Spanish",
+    "hobby": "Cooking",
+    "education": "Culinary Arts",
+    "age": 28,
+    "email": "maria.garcia@example.com",
+    "occupation": "Chef",
+    "languages": ["Spanish", "English", "French"],
+    "location": "Madrid, Spain",
+    "social_media": {
+      "instagram": "@mariagarcia",
+      "facebook": "mariagarcia",
+      "twitter": "@mariagarcia"
+    }
+  },
+  {
+    "name": "Kim",
+    "surname": "Lee",
+    "nationality": "Korean",
+    "hobby": "Soccer",
+    "education": "Computer Science",
+    "age": 24,
+    "email": "kim.lee@example.com",
+    "occupation": "Software Engineer",
+    "languages": ["Korean", "English"],
+    "location": "Seoul, South Korea",
+    "social_media": {
+      "instagram": "@kimlee",
+      "facebook": "kimlee",
+      "twitter": "@kimlee"
+    }
+  },
+  {
+    "name": "Emma",
+    "surname": "Brown",
+    "nationality": "British",
+    "hobby": "Reading",
+    "education": "English Literature",
+    "age": 31,
+    "email": "emma.brown@example.com",
+    "occupation": "Writer",
+    "languages": ["English", "French"],
+    "location": "London, UK",
+    "social_media": {
+      "instagram": "@emmabrown",
+      "facebook": "emmabrown",
+      "twitter": "@emmabrown"
+    }
+  },
+  {
+    "name": "Chen",
+    "surname": "Wei",
+    "nationality": "Chinese",
+    "hobby": "Painting",
+    "education": "Fine Arts",
+    "age": 29,
+    "email": "chen.wei@example.com",
+    "occupation": "Artist",
+    "languages": ["Chinese", "English"],
+    "location": "Beijing, China",
+    "social_media": {
+      "instagram": "@chenwei",
+      "facebook": "chenwei",
+      "twitter": "@chenwei"
+    }
+  },
+  {
+    "name": "David",
+    "surname": "Kim",
+    "nationality": "Korean",
+    "hobby": "Playing Guitar",
+    "education": "Computer Science",
+    "age": 30,
+    "email": "david.kim@example.com",
+    "occupation": "Software Engineer",
+    "languages": ["Korean", "English"],
+    "location": "Seoul, South Korea",
+    "social_media": {
+      "instagram": "@davidkim",
+      "facebook": "davidkim",
+      "twitter": "@davidkim"
+    }
+  },
+  {
+    "name": "Sophie",
+    "surname": "Chen",
+    "nationality": "Taiwanese",
+    "hobby": "Reading",
+    "education": "Journalism",
+    "age": 25,
+    "email": "sophie.chen@example.com",
+    "occupation": "Journalist",
+    "languages": ["Mandarin", "English"],
+    "location": "Taipei, Taiwan",
+    "social_media": {
+      "instagram": "@sophiechen",
+      "facebook": "sophiechen",
+      "twitter": "@sophiechen"
+    }
+  },
+  {
+    "name": "Mohammed",
+    "surname": "Ali",
+    "nationality": "Egyptian",
+    "hobby": "Soccer",
+    "education": "Mechanical Engineering",
+    "age": 32,
+    "email": "mohammed.ali@example.com",
+    "occupation": "Mechanical Engineer",
+    "languages": ["Arabic", "English"],
+    "location": "Cairo, Egypt",
+    "social_media": {
+      "instagram": "@mohammedali",
+      "facebook": "mohammedali",
+      "twitter": "@mohammedali"
+    }
+  },
+  {
+    "name": "Anna",
+    "surname": "Kowalska",
+    "nationality": "Polish",
+    "hobby": "Painting",
+    "education": "Fine Arts",
+    "age": 27,
+    "email": "anna.kowalska@example.com",
+    "occupation": "Artist",
+    "languages": ["Polish", "English"],
+    "location": "Warsaw, Poland",
+    "social_media": {
+      "instagram": "@annakowalska",
+      "facebook": "annakowalska",
+      "twitter": "@annakowalska"
+    }
+  },
+  {
+    "name": "Javier",
+    "surname": "Gonzalez",
+    "nationality": "Mexican",
+    "hobby": "Playing Piano",
+    "education": "Music",
+    "age": 29,
+    "email": "javier.gonzalez@example.com",
+    "occupation": "Musician",
+    "languages": ["Spanish", "English"],
+    "location": "Mexico City, Mexico",
+    "social_media": {
+      "instagram": "@javiergonzalez",
+      "facebook": "javiergonzalez",
+      "twitter": "@javiergonzalez"
+    }
+  },
+  {
+    "name": "Lena",
+    "surname": "Ivanova",
+    "nationality": "Russian",
+    "hobby": "Dancing",
+    "education": "Business Management",
+    "age": 31,
+    "email": "lena.ivanova@example.com",
+    "occupation": "Businesswoman",
+    "languages": ["Russian", "English"],
+    "location": "Moscow, Russia",
+    "social_media": {
+      "instagram": "@lenivanova",
+      "facebook": "lenivanova",
+      "twitter": "@lenivanova"
+    }
+  },
+  {
+    "name": "Kim",
+    "surname": "Yoon-hee",
+    "nationality": "Korean",
+    "hobby": "Playing Piano",
+    "education": "Music",
+    "age": 26,
+    "email": "kim.yoonhee@example.com",
+    "occupation": "Pianist",
+    "languages": ["Korean", "English"],
+    "location": "Seoul, South Korea",
+    "social_media": {
+      "instagram": "@kimsyoonhee",
+      "facebook": "kimsyoonhee",
+      "twitter": "@kimsyoonhee"
+    }
+  },
+  {
+    "name": "Julia",
+    "surname": "Schmidt",
+    "nationality": "German",
+    "hobby": "Hiking",
+    "education": "Environmental Science",
+    "age": 33,
+    "email": "julia.schmidt@example.com",
+    "occupation": "Environmental Scientist",
+    "languages": ["German", "English"],
+    "location": "Berlin, Germany",
+    "social_media": {
+      "instagram": "@juliaschmidt",
+      "facebook": "juliaschmidt",
+      "twitter": "@juliaschmidt"
+    }
+  },
+  {
+    "name": "Rajesh",
+    "surname": "Patel",
+    "nationality": "Indian",
+    "hobby": "Playing Cricket",
+    "education": "Computer Science",
+    "age": 30,
+    "email": "rajesh.patel@example.com",
+    "occupation": "Software Engineer",
+    "languages": ["Hindi", "English"],
+    "location": "Mumbai, India",
+    "social_media": {
+      "instagram": "@rajeshpatel",
+      "facebook": "rajeshpatel",
+      "twitter": "@rajeshpatel"
+    }
+  },
+  {
+    "name": "Sophia",
+    "surname": "Lee",
+    "nationality": "Korean",
+    "hobby": "Reading",
+    "education": "English Literature",
+    "age": 24,
+    "email": "sophia.lee@example.com",
+    "occupation": "English Teacher",
+    "languages": ["Korean", "English"],
+    "location": "Seoul, South Korea",
+    "social_media": {
+      "instagram": "@sophialee",
+      "facebook": "sophialee",
+      "twitter": "@sophialee"
+    }
+  },
+  {
+    "name": "Lucas",
+    "surname": "Silva",
+    "nationality": "Brazilian",
+    "hobby": "Surfing",
+    "education": "Marketing",
+    "age": 28,
+    "email": "lucas.silva@example.com",
+    "occupation": "Marketing Manager",
+    "languages": ["Portuguese", "English"],
+    "location": "Rio de Janeiro, Brazil",
+    "social_media": {
+      "instagram": "@lucassilva",
+      "facebook": "lucassilva",
+      "twitter": "@lucassilva"
+    }
+  },
+  {
+    "name": "Nadia",
+    "surname": "Abdullah",
+    "nationality": "Emirati",
+    "hobby": "Reading",
+    "education": "Law",
+    "age": 32,
+    "email": "nadia.abdullah@example.com",
+    "occupation": "Lawyer",
+    "languages": ["Arabic", "English"],
+    "location": "Dubai, UAE",
+    "social_media": {
+      "instagram": "@nadiaabdullah",
+      "facebook": "nadiaabdullah",
+      "twitter": "@nadiaabdullah"
+    }
+  },
+  {
+    "name": "Alex",
+    "surname": "Wong",
+    "nationality": "Chinese",
+    "hobby": "Playing Basketball",
+    "education": "Finance",
+    "age": 29,
+    "email": "alex.wong@example.com",
+    "occupation": "Investment Banker",
+    "languages": ["Mandarin", "English"],
+    "location": "Hong Kong, China",
+    "social_media": {
+      "instagram": "@alexwong",
+      "facebook": "alexwong",
+      "twitter": "@alexwong"
+    }
+  },
+  {
+    "name": "Elena",
+    "surname": "Ivanova",
+    "nationality": "Bulgarian",
+    "hobby": "Singing",
+    "education": "Music",
+    "age": 27,
+    "email": "elena.ivanova@example.com",
+    "occupation": "Singer",
+    "languages": ["Bulgarian", "English"],
+    "location": "Sofia, Bulgaria",
+    "social_media": {
+      "instagram": "@elenivanova",
+      "facebook": "elenivanova",
+      "twitter": "@elenivanova"
+    }
+  },
+  {
+    "name": "Hiroshi",
+    "surname": "Tanaka",
+    "nationality": "Japanese",
+    "hobby": "Playing Video Games",
+    "education": "Computer Science",
+    "age": 26,
+    "email": "hiroshi.tanaka@example.com",
+    "occupation": "Software Engineer",
+    "languages": ["Japanese", "English"],
+    "location": "Tokyo, Japan",
+    "social_media": {
+      "instagram": "@hiroshitanaka",
+      "facebook": "hiroshitanaka",
+      "twitter": "@hiroshitanaka"
+    }
+  },
+  {
+    "name": "Lena",
+    "surname": "Müller",
+    "nationality": "German",
+    "hobby": "Traveling",
+    "education": "International Business",
+    "age": 30,
+    "email": "lena.mueller@example.com",
+    "occupation": "Businesswoman",
+    "languages": ["German", "English"],
+    "location": "Munich, Germany",
+    "social_media": {
+      "instagram": "@lenamueller",
+      "facebook": "lenamueller",
+      "twitter": "@lenamueller"
+    }
+  }
 ]

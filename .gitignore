@@ -1,2 +1,4 @@
 node_modules/
 .env
+# Ignore user-specific files
+.DS_Store

@@ -1,26 +1,35 @@
-const { Configuration, OpenAIApi } = require('openai');
-require('dotenv').config();
+const { Configuration, OpenAIApi } = require("openai");
+require("dotenv").config();
 
-const openai = new OpenAIApi(new Configuration({
+const openai = new OpenAIApi(
+  new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
-}));
+  })
+);
 
-async function queryToGpt(prompt = '') {
-    if (prompt.trim().length === 0) {
-        throw new Error('Please enter a valid prompt');
-    }
+async function queryToGpt(prompt = "", temperature = 0.0, maxTokens = 1000) {
+  if (!prompt.trim()) {
+    throw new Error("Please enter a valid prompt");
+  }
 
-    try {
-        const completion = await openai.createCompletion({
-            model: "gpt-3.5-turbo",
-            prompt,
-            temperature: 0, //this is the degree of randomness of the model's output
-            max_tokens: 500
-        });
+  if (!openai) {
+    throw new Error("openai object not found");
+  }
 
-        return completion.data.choices[0].text.replace(/^\n+/, '');
-    }
-    catch (e) { console.error(e) }
+  try {
+    const {
+      data: { choices },
+    } = await openai.createCompletion({
+      model: "text-davinci-003",
+      prompt,
+      temperature,
+      max_tokens: maxTokens,
+    });
+
+    return choices[0].text.trim();
+  } catch (e) {
+    console.error(e);
+  }
 }
 
 module.exports = { queryToGpt };
